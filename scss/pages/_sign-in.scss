@@ -1,0 +1,119 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    display: -ms-flexbox;
+    min-height: 100vh;
+
+    .sign-in {
+        overflow: hidden;
+        display: flex;
+        display: -ms-flexbox;
+        flex-direction: column;
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        flex: 1;
+
+        @include mq('md') {
+            flex-direction: row;
+        }
+
+        >div {
+            -ms-flex-preferred-size: 0;
+            flex-basis: 0;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            max-width: 100%;
+            padding: calcRem(50);
+
+
+            @include mq('lg') {
+                padding: calcRem(78);
+
+            }
+        }
+
+
+        .teacher-profile {
+            background-color: $secondary;
+            display: flex;
+            display: -ms-flexbox;
+            justify-content: center;
+            align-items: center;
+            order: 2;
+
+            @include mq('md') {
+                justify-content: flex-end;
+                order: 1;
+            }
+
+            .content {
+                text-align: center;
+                width: 100%;
+                max-width: calcRem(470);
+
+                .profile-image {
+                    margin: 0 auto;
+                }
+
+                .name {
+                    margin-top: calcRem(20);
+                    color: $primary;
+                    font-family: $secondary-font;
+                    font-size: calcRem(30);
+                    line-height: 40px;
+                }
+
+                .title {
+                    font-family: $secondary-font;
+                    line-height: 22px;
+
+                }
+
+                .details {
+                    margin-top: calcRem(25);
+                    line-height: 27px;
+                    margin-bottom: calcRem(27);
+                }
+            }
+
+
+        }
+
+        .signin-form {
+            // order: 2;
+            background-color: $primary;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            order: 1;
+
+            @include mq('md') {
+                justify-content: flex-start;
+                order: 2;
+            }
+
+
+            .content {
+                width: 100%;
+                max-width: calcRem(470);
+            }
+
+            .form-title {
+                color: $white;
+                line-height: 38px;
+                font-family: $secondary-font;
+                font-size: calcRem(28);
+                text-align: center;
+                margin-bottom: calcRem(40);
+            }
+
+            .btn {
+                margin-top: calcRem(25);
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up a decent box model on the root element
+ */
+
+
+:root {
+  font-size: 16px;
+  @extend %scroll;
+  box-sizing: border-box;
+
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  direction: $direction;
+  box-sizing: border-box;
+  color: $black;
+  font-family: $primary-font;
+  height: 100vh;
+}
+
+
+
+
+::selection {
+  background: $rose;
+  color: #fff;
+}
+
+
+
+/**
+ * Basic styles for links
+ */
+a {
+  text-decoration: none;
+}
+
+p {
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

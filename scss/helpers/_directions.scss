@@ -1,0 +1,16 @@
+$direction: ltr !default;
+
+/**
+ * Flips any values
+ */
+@function flip($arabic, $english) {
+
+  @return if($direction==rtl, #{$arabic}, #{$english});
+
+}
+
+/**
+ * Flips left for right, right for left
+ */
+$left: flip(left, right);
+$right: flip(right, left);

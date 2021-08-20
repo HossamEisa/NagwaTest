@@ -1,0 +1,116 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+//////////////////////////////////////////////
+// Fonts  Vars 
+//////////////////////////////////////////////
+
+$primary-font: droid-naskh-r;
+$secondary-font: ge-m;
+
+
+$font-num: Myriad Pro,
+Arial,
+sans-serif;
+$fa : FontAwesome;
+
+$icon-font: 'monshaat';
+
+
+//////////////////////////////////////////////
+/// Regular font family
+/// @type List
+$text-font-stack: 'Open Sans',
+'Helvetica Neue Light',
+'Helvetica Neue',
+'Helvetica',
+'Arial',
+sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+
+$code-font-stack: 'Courier New',
+'DejaVu Sans Mono',
+'Bitstream Vera Sans Mono',
+'Monaco',
+monospace !default;
+
+
+//////////////////////////////////////////////
+//== Typography
+//////////////////////////////////////////////
+
+
+
+$f-12: 12px !default;
+$f-14: 14px !default;
+$f-16: 16px !default;
+$f-18: 18px !default;
+$f-20: 20px !default;
+$f-22: 22px !default;
+
+$f-24: 24px !default;
+
+$p-font: 17px !default;
+
+$heading1-font: 36px !default;
+$heading2-font: 36px !default;
+$heading3-font: 30px !default;
+$heading4-font: 24px !default;
+
+
+/********************************************/
+
+
+//Border Raduis 
+
+$border-radius: 4px;
+$input-radius: 2px;
+$card-radius: 4px;
+
+/**************************** OUp ***************************/
+
+
+/*=======================
+    Colors
+=======================*/
+
+
+$facebook : #3B5999;
+$messenger : #0084ff;
+$twitter : #03A9F4;
+$linkedin : #0077B5;
+$skype : #00AFF0;
+$dropbox : #007ee5;
+$wordpress : #21759b;
+$vimeo : #1ab7ea;
+$slideShare : #0077b5;
+$vk : #4c75a3;
+$tumbler : #34465d;
+$yahoo : #410093;
+$gplus : #dd4b39;
+$pinterest : #bd081c;
+$youtube : #F61C0D;
+$whatsapp : #25D366;
+$slack : #3aaf85;
+$instagram : #e4405f;
+
+
+
+
+/*=======================
+    Colors
+=======================*/
+
+
+$black : #3D3D3D;
+$white : #FFF;
+$primary: #20639C;
+$secondary : #F7D65C;
+$rose : #e51d74;
+
+$text-color: #333333;
+
+

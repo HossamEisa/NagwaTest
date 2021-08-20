@@ -1,0 +1,28 @@
+.form-item-block {
+    margin-bottom: calcRem(13);
+
+    .form-item {
+        display: block;
+        width: 100%;
+        height: calcRem(45);
+        padding: .375rem .75rem;
+        font-size: calcRem(18);
+        font-weight: 400;
+        line-height: 1.5;
+        color: $white;
+        background: transparent;
+        background-clip: padding-box;
+        border: 1px solid #9FBED8;
+        border-radius: 4px;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+        &::placeholder {
+            color: $white;
+        }
+
+        &:focus-visible {
+            outline: none;
+            box-shadow: 0px 0px 3px $white;
+        }
+    }
+}

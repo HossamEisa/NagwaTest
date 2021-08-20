@@ -1,0 +1,48 @@
+.share-icons {
+    display: flex;
+    justify-content: center;
+
+    li {
+        border-radius: 50%;
+        margin-#{$left}: calcRem(17);
+
+        &:last-child {
+            margin-#{$left}: 0;
+        }
+
+        a {
+            color: $white;
+            width: calcRem(56);
+            height: calcRem(56);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+
+            span {
+                transition: 0.5s ease-in-out;
+            }
+
+            &:hover {
+                color: $white;
+
+                span {
+                    transition: 0.5s ease-in-out;
+                    transform: scale(1.5);
+                }
+            }
+        }
+    }
+
+    .facebook {
+        background-color: $facebook;
+    }
+
+    .twitter {
+        background-color: $twitter;
+    }
+
+    .youtube {
+        background-color: $youtube;
+    }
+}
