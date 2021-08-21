@@ -1,8 +1,14 @@
 .profile-image {
-    width: calcRem(250);
-    height: calcRem(250);
+    width: calcRem(200);
+    height: calcRem(200);
     border-radius: 50%;
     overflow: hidden;
+
+    @include mq('sm') {
+        width: calcRem(250);
+        height: calcRem(250);
+    }
+
     img {
         width: 100%;
         height: 100%;
